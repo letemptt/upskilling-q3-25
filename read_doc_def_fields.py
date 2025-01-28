@@ -100,11 +100,6 @@ def analyze_invoice():
             print(
                 f"Invoice Date: {invoice_date.value} has confidence: {invoice_date.confidence}"
             )
-        discount = invoice.fields.get("Associate discount")
-        if discount:
-            print(
-                f"......Discount: {discount.value} has confidence: {amount.confidence}"
-            )
         invoice_total = invoice.fields.get("InvoiceTotal")
         if invoice_total:
             print(
