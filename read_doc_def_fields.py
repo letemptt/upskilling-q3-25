@@ -33,7 +33,8 @@ def analyze_invoice():
     path_to_sample_documents = os.path.abspath(
         os.path.join(
             os.path.abspath(__file__),
-            "/Users/toniletempt/Projects/upskilling-q3-25/sample_forms/orders/pdfs/EchelonCycleOrder.pdf"
+            "/Users/toniletempt/Projects/upskilling-q3-25/sample_forms/orders/pdfs/EchelonCycleOrder.pdf",
+            "/Users/toniletempt/Projects/upskilling-q3-25/sample_forms/orders/pdfs/HiltonFolio.pdf"
         )
     )
 
